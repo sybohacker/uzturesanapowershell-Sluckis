@@ -1,44 +1,44 @@
 SKAIDROJUMS
 01. Sistēmas apraksts
 
-Skripts parāda datora nosaukumu, Windows versiju, PowerShell versiju, datumu un procesu skaitu.
+Skripts parāda datora nosaukumu, operētājsistēmu, PowerShell versiju, datumu un procesu skaitu.
 
 02. Procesi
 
-Skripts parāda 10 procesus, kuri izmanto visvairāk atmiņas. Pēdējais process izmanto visvairāk atmiņas.
+Skripts atlasa 10 procesus, kas izmanto visvairāk atmiņas, un sakārto tos augošā secībā.
 
 03. Servisi
 
-Datorā darbojas [skaits] servisi, bet [skaits] ir apturēti. Kopā ir [skaits] servisi.
+Skripts saskaita darbojošos un apturētos servisus, izmantojot foreach un if.
 
 04. Automātiskie servisi
 
-Skripts atrada [skaits] apturētus automātiskos servisus. Ar -WhatIf pārbaudīju, kurus servisus var palaist.
+Skripts atrod apturētus automātiskos servisus. Ar -WhatIf pārbauda, kurus servisus varētu palaist.
 
 05. Kļūdas
 
-Pēdējās 48 stundās bija [skaits] kļūdu ieraksti. Visbiežākais avots bija [avots].
+Skripts saskaita kļūdu ierakstus System žurnālā pēdējo 48 stundu laikā un atrod biežāko kļūdu avotu.
 
 06. Draiveri
 
-CSV failā saglabāti [skaits] draiveri. Draiveris [nosaukums] pieder ierīcei [ierīce].
+Skripts atlasa draiverus, kuru piegādātājs nav Microsoft, un saglabā tos CSV failā.
 
 07. Diski
 
-Diskam [burts] ir [GB] GB brīvas vietas. Ja brīvās vietas ir mazāk par 10 GB, skripts parāda brīdinājumu.
+Skripts parāda disku kopējo izmēru un brīvo vietu. Ja brīvās vietas ir mazāk par 10 GB, tiek parādīts brīdinājums.
 
 08. Spooler serviss
 
-Salīdzināju divas metodes. Ātrāka bija [metode]. Laika starpība bija [nozīmīga/nav nozīmīga].
+Skripts iegūst informāciju par Spooler servisu divos veidos un salīdzina izpildes laiku.
 
 09. Procesu lietotāji
 
-Skripts mēģināja noteikt procesu lietotājus. [Izdevās noteikt lietotājus / radās piekļuves kļūdas.]
+Skripts mēģina noteikt, kurš lietotājs palaidis katru procesu. Dažiem procesiem var nebūt pieejama informācija par lietotāju.
 
 10. Kopsavilkums
 
-Skripts atkārtoti pārbaudīja procesus, servisus, kļūdas un disku vietu. [Norādi, kuri skaitļi mainījās.]
+Skripts atkārtoti pārbauda procesu skaitu, servisu skaitu, kļūdu ierakstus un disku brīvo vietu.
 
 11. Tīkla adapteri
 
-Datorā ir [skaits] tīkla adapteri. Aktīvi ir [nosaukumi], bet neaktīvi ir
+Skripts parāda tīkla adapteru nosaukumus, statusu, MAC adreses un savienojuma ātrumu. Rezultāti tiek saglabāti CSV failā.
