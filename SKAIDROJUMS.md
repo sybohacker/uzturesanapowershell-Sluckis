@@ -38,7 +38,3 @@ Skripts mēģina noteikt, kurš lietotājs palaidis katru procesu. Dažiem proce
 10. Kopsavilkums
 
 Skripts atkārtoti pārbauda procesu skaitu, servisu skaitu, kļūdu ierakstus un disku brīvo vietu.
-
-11. Tīkla adapteri
-
-Skripts parāda tīkla adapteru nosaukumus, statusu, MAC adreses un savienojuma ātrumu. Rezultāti tiek saglabāti CSV failā.
